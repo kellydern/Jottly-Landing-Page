@@ -1,0 +1,436 @@
+/* Sections */
+
+/* Header */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+   color: #FFFFFF;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #FFFFFF; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFFFFF;
+}
+
+:-ms-input-placeholder {  
+   color: #FFFFFF;
+}
+
+.container {
+  padding: 15px;
+}
+
+header {
+  background-image: url("img/backgroundimage.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-position: absolute;
+}
+
+h1 {
+  font-size: 2.5em; /* 40 / 16 */ 
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 700; 
+  color: #FFFFFF;
+  text-align: center;
+  margin: 8px;
+}
+
+h2 {
+  font-size: 1.25em; /* 20 / 16 */
+  font-family: 'Cabin', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.875em; /*30 / 16 */
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: #515051;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+h4 {
+  font-size: 1.375em; /*22 / 16 */
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #515051;
+}
+
+p {
+  font-size: 1.125em; /*18 / 16 */
+  font-family:  'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*Jottly logo */
+
+.logo_element img {
+  height: 50px;
+}
+
+.logo_element {
+  padding: 10px;
+}
+
+.jottlyname { 
+  font-size: 36px;
+  font-family: 'Cabin', sans-serif;
+  color: #FFFFFF;
+  margin-left: 10px;
+  position: relative;
+  bottom: 18px;
+}
+
+/* Button text */
+
+.btn {
+ display: block;
+ width: 100%;
+ background-color: #f37560;
+ color: #FFFFFF;
+ text-decoration: none;
+ text-align: center;
+ padding: 12px;
+  font-size: 1.125em; 
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+input {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12px; 
+  border: 5px solid #f37560;
+  font-size: 1.125em; 
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+/* Features*/
+
+ .features {
+  background-color: #FFFFFF;
+  max-width: 100%;
+}
+
+.featureslist {
+  display: inline;
+  text-align: center;
+
+}
+
+.featuresitems, p {
+  font-size: 18px;
+  font-family:'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+}
+
+.icons img {
+  text-align: center;
+  height: 80px;
+}
+
+.jottlymockup {
+  display: block;
+  margin: 0px auto;
+  float: center;
+  max-width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+
+/* Testimonials */
+
+.testimonials {
+  background-color: #046d99;
+}
+
+.testimonials p {
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+.testimonials h4 {
+  font-size: 1.375em; /*22 / 16 */
+  font-family: 'Cabin', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  margin: -10px;
+}
+
+.testimonials h3 {
+  font-size: 1.875em; /*30 / 16 */
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.quotes {
+  text-align: center;
+  color: #FFFFFF;
+  display: inline;
+}
+
+/* Pricing */
+
+.pricing {
+  background-color: #FFFFFF;
+  display: inline;
+}
+
+.pricing_header h3 {
+  font-size: 1.875em; /*30 / 16 */
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #515051;
+  text-align: center;
+}
+
+.pricing_container {
+  border: 3px solid #ededed;
+  border-radius: 6px;
+  float: inline;
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+  color: #515051;
+}
+
+.pricing_container h4 {
+  font-size: 1.375em; /*22 / 16 */
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
+  color: #515051;
+}
+
+.pricing p {
+  font-size: 18px;
+  font-family:'Cabin', sans-serif;
+  font-style: normal; 
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5em;
+  color: #515051;
+  padding: 0px 10px 0px 10px;
+}
+
+.price1 {
+  background-color: #046d99;
+  color: #FFFFFF;
+}
+
+.price2 {
+  background-color: #95decb;
+  color: #FFFFFF;
+}
+
+.price3 {
+  background-color: #3babb2;
+  color: #FFFFFF;
+}
+
+/* Footer */
+
+
+.footer p {
+  color: #FFFFFF;
+}
+
+.footer h3 {
+  color: #FFFFFF;
+}
+
+.footer .btn {
+    box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+ min-height: 100%;
+ min-width: 100%;
+ text-align: center;
+ padding: 12px;
+ margin: 0px 0px 20px 0px;
+ border: 5px solid #FFFFFF;
+}
+
+.footer input {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  padding: 12px;
+  border: 5px solid #FFFFFF;
+}
+
+.footer {
+  background-color: #f37560;
+  width: 100%;
+  padding-top: 10px;
+  color: #FFFFFF;
+}
+
+.copyright {
+  padding: 30px;
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+  .icons img {
+  text-align: center;
+  height: 100px;
+}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  
+/*header */
+
+.logo_element img {
+  height: 100px;
+}
+
+.logo_element {
+  padding: 10px;
+}
+
+.jottlyname { 
+  font-size: 36px;
+  font-family: 'Cabin', sans-serif;
+  color: #FFFFFF;
+  margin-left: 5px;
+  position: relative;
+  bottom: 45px;
+  padding: 10px;
+}
+
+
+
+/*features*/
+
+.jottlymockup {
+  padding: 20px 0px;
+}
+
+.feature {
+  padding: 0px 10px;
+}
+
+/*testimonials */
+  .testimonials { 
+    background-image: url("img/testimonialsimage.png");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+.container {
+  padding: 45px 0px 45px 0px;
+}
+
+.btn {
+ display: block;
+ width: 100%;
+ background-color: #f37560;
+ color: #FFFFFF;
+ text-decoration: none;
+ text-align: center;
+ padding: 14.5px 12px 14.5px 12px;
+}
+
+/*button */
+
+input {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12px;
+  border: 5px solid #f37560;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5em; /* 40 / 16 */ 
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 700; 
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* features */
+
+.icons img {
+  text-align: center;
+  height: 150px;
+}
+
+/*footer */
+
+.footer .btn {
+ padding: 12px;
+}
+
+.footer input {
+   padding: 14.5px 12px 14.5px 12px;
+}
+
+}
+
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+
